@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TxtChaoluon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mon Chao Luon"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:padding="20dp"/>
+
+    <ImageView
+        android:id="@+id/ImgChaoluon"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/mienluon"
+        android:layout_below="@id/TxtBanhcanh"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/BtnBackChaoluon"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tro Ve"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ImgChaoluon"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

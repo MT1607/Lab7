@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/Txtn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Nhap so thu 1"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/Txtn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Nhap so thu 2"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Txtn1"
+            />
+
+        <TextView
+            android:id="@+id/Txtn3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Chon phep Toan: "
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Txtn2"
+            />
+
+        <EditText
+            android:id="@+id/EdtN1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            android:layout_alignTop="@+id/Txtn1"
+            android:layout_toRightOf="@+id/Txtn1"
+            />
+
+        <EditText
+            android:id="@+id/EdtN2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            android:layout_alignTop="@+id/Txtn2"
+            android:layout_toRightOf="@+id/Txtn2"
+            />
+
+        <Button
+            android:id="@+id/BtnKq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KetQua"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_below="@+id/Txtn3"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:id="@+id/TxtKq"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@+id/BtnKq"
+            android:layout_alignBottom="@+id/BtnKq"
+            android:layout_alignLeft="@+id/EdtN2"
+            android:layout_alignStart="@+id/EdtN2"
+            android:textAlignment="textEnd"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerPheptinh"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EdtN2"
+            android:layout_toRightOf="@+id/Txtn3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

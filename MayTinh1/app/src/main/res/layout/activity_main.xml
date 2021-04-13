@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TxTn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Nhap so thu 1"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/TxTn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Nhap so thu 2"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/TxTn1"
+            />
+
+        <EditText
+            android:id="@+id/EdtN1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            android:layout_alignTop="@+id/TxTn1"
+            android:layout_toRightOf="@+id/TxTn1"
+            />
+
+        <EditText
+            android:id="@+id/EdtN2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            android:layout_alignTop="@+id/TxTn2"
+            android:layout_toRightOf="@+id/TxTn2"
+            />
+
+        <Button
+            android:id="@+id/BtnKQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ket Qua"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_below="@+id/TxTn2"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:id="@+id/TxTKq"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@+id/BtnKQ"
+            android:layout_alignBottom="@+id/BtnKQ"
+            android:layout_alignLeft="@+id/EdtN2"
+            android:layout_alignStart="@+id/EdtN2"
+            android:textAlignment="textEnd"
+            />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
