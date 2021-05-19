@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Questionre>
+<Questionre
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res-auto ">
     <Item>
         <ID>1</ID>
-        <Question>We have two ….. We see with them.</Question>
+        <Question></Question>
         <AnswerA>eyes</AnswerA>
         <AnswerB>legs</AnswerB>
         <AnswerC>hands</AnswerC>
@@ -47,7 +49,7 @@
     </Item>
     <Item>
         <ID>6</ID>
-        <Question>The weather is .... </Question>
+        <Question>The weather is ....</Question>
         <AnswerA>wet</AnswerA>
         <AnswerB>heavy</AnswerB>
         <AnswerC>heard</AnswerC>
@@ -69,7 +71,7 @@
         <AnswerA>go shopping</AnswerA>
         <AnswerB>shopping</AnswerB>
         <AnswerC>shop</AnswerC>
-        <AnswerD>shopping to </AnswerD>
+        <AnswerD>shopping to</AnswerD>
         <Answer>B</Answer>
     </Item>
 </Questionre>

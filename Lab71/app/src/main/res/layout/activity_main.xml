@@ -69,6 +69,7 @@
             android:textSize="20dp"
             android:layout_below="@+id/BtnTraloi"
             android:layout_marginTop="30dp"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
