@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:overrideLibrary="com.sasank.roundedhorizontalprogress"
     package="com.gs.firebase1">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
@@ -20,6 +22,7 @@
         <activity android:name=".activity_ketqua"/>
         <activity android:name=".activity_norques"/>
         <activity android:name=".activity_hardques"/>
+        <activity android:name=".time_out_dialog"/>
     </application>
 
 

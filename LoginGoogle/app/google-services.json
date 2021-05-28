@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "229854106925",
+    "firebase_url": "https://sonnguyen-1621515351822-default-rtdb.firebaseio.com",
+    "project_id": "sonnguyen-1621515351822",
+    "storage_bucket": "sonnguyen-1621515351822.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229854106925:android:c68ae08f52a21ea36dafa4",
+        "android_client_info": {
+          "package_name": "com.gs.logingoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229854106925-jgnstp6viipfhagcnnbo7sr4hnn858o9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1lwYDtJRcOZV_IocI4Qc2dWPrK8r3NRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229854106925-jgnstp6viipfhagcnnbo7sr4hnn858o9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,92 +1,404 @@
 {
     "question_database":{
-        "question_easy":{
-          "1": {
-            "answerA": "Lewandowski",
-            "answerB": "Ronaldo",
-            "answerC": "Bale",
-            "answerD": "Hazard",
-            "trueAnswer": "Lewandowski",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question1.jpg?alt=media&token=0fd3d80a-ad4a-4208-8b91-82236c4db1a7"
-          },
-          "2": {
-            "answerA": "Neymar",
-            "answerB": "Marca",
-            "answerC": "Lionel Messi",
-            "answerD": "Leroy Sane",
-            "trueAnswer": "Neymar",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question2.jpg?alt=media&token=4dd833ea-a49d-4aff-86ba-c6ea39236330"
-          },
-          "3": {
-            "answerA": "Nguyễn Quang Hải",
-            "answerB": "Mo Salah",
-            "answerC": "Lionel Messi",
-            "answerD": "Neymar",
-            "trueAnswer": "Mo Salah",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question3.jpg?alt=media&token=4484e5b4-762e-46e0-9bb7-0531abe01619"
-          },
-          "4": {
-            "answerA": "Hazdra",
-            "answerB": "Hulk",
-            "answerC": "Lionel Messi",
-            "answerD": "Kylian Mbappe",
-            "trueAnswer": "Kylian Mbappe",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question4.jpg?alt=media&token=3cf45adb-6248-457f-a10a-6f2ac4c5f9a1"
-          },
-          "5": {
-            "answerA": "Rock",
-            "answerB": "Raheem Sterling",
-            "answerC": "Ronaldo",
-            "answerD": "Bale",
-            "trueAnswer": "Raheem Sterling",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question5.jpg?alt=media&token=9d786ba8-61e5-4be3-bb51-5c56b7ac9980"
-          }
+      "question_easy": {
+        "1": {
+          "answerA": "Lewandowski",
+          "answerB": "Ronaldo",
+          "answerC": "Bale",
+          "answerD": "Hazard",
+          "trueAnswer": "Lewandowski",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question1.jpg?alt=media&token=0fd3d80a-ad4a-4208-8b91-82236c4db1a7"
+        },
+        "2": {
+          "answerA": "Neymar",
+          "answerB": "Marca",
+          "answerC": "Lionel Messi",
+          "answerD": "Leroy Sane",
+          "trueAnswer": "Neymar",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question2.jpg?alt=media&token=4dd833ea-a49d-4aff-86ba-c6ea39236330"
+        },
+        "3": {
+          "answerA": "Nguyễn Quang Hải",
+          "answerB": "Mo Salah",
+          "answerC": "Lionel Messi",
+          "answerD": "Neymar",
+          "trueAnswer": "Mo Salah",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question3.jpg?alt=media&token=4484e5b4-762e-46e0-9bb7-0531abe01619"
+        },
+        "4": {
+          "answerA": "Hazdra",
+          "answerB": "Hulk",
+          "answerC": "Lionel Messi",
+          "answerD": "Kylian Mbappe",
+          "trueAnswer": "Kylian Mbappe",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question4.jpg?alt=media&token=3cf45adb-6248-457f-a10a-6f2ac4c5f9a1"
+        },
+        "5": {
+          "answerA": "Rock",
+          "answerB": "Raheem Sterling",
+          "answerC": "Ronaldo",
+          "answerD": "Bale",
+          "trueAnswer": "Raheem Sterling",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question5.jpg?alt=media&token=9d786ba8-61e5-4be3-bb51-5c56b7ac9980"
+        },
+        "6": {
+          "answerA": "Erling Haaland",
+          "answerB": "G.Bale",
+          "answerC": "Hulk",
+          "answerD": "Messi",
+          "trueAnswer": "Erling Haaland",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question6.jpg?alt=media&token=17516a25-91d0-4550-ac13-daf9a8e7fdc9"
+        },
+        "7": {
+          "answerA": "Hulk",
+          "answerB": "Manuel Neuer",
+          "answerC": "Ronaldo",
+          "answerD": "Bale",
+          "trueAnswer": "Manuel Neuer",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question7.jpg?alt=media&token=fd8087c3-204e-4454-92fa-1ce098b84f1c"
+        },
+        "8": {
+          "answerA": "Cristiano Ronaldo",
+          "answerB": "Messi",
+          "answerC": "Nguyễn Quang Hải",
+          "answerD": "Lương Xuân Trường",
+          "trueAnswer": "Cristiano Ronaldo",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question8.jpg?alt=media&token=27cd86c8-325f-4139-a0ef-0122aa129e7a"
+        },
+        "9": {
+          "answerA": "Bùi Tiến Dũng",
+          "answerB": "G.Bale",
+          "answerC": "Messi",
+          "answerD": "Sergio Ramos",
+          "trueAnswer": "Sergio Ramos",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question9.jpg?alt=media&token=f33857d6-c99f-45d1-812b-304b248fbc09"
+        },
+        "10": {
+          "answerA": "Sancho",
+          "answerB": "Joshua Kimmich",
+          "answerC": "Đỗ Hùng Dũng",
+          "answerD": "Raheem Sterling",
+          "trueAnswer": "Joshua Kimmich",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question10.jpg?alt=media&token=c5c2bcc0-abb5-4571-9123-51b874a65763"
+        },
+        "11": {
+          "answerA": "Gheorghe Hagi",
+          "answerB": "Nguyễn Công Phượng",
+          "answerC": "Hulk",
+          "answerD": "Nguyễn Quang Hải",
+          "trueAnswer": "Gheorghe Hagi",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question11.jpg?alt=media&token=1df348d0-3078-4375-b2f7-940d62fdf3f1"
+        },
+        "12": {
+          "answerA": "Mario Coluna",
+          "answerB": "Ramos",
+          "answerC": "Lewandowski",
+          "answerD": "Messi",
+          "trueAnswer": "Mario Coluna",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question12.jpg?alt=media&token=cbe04aa1-9b65-4e94-9a2b-1681b6514979"
+        },
+        "13": {
+          "answerA": "Ramos",
+          "answerB": "Ronaldo",
+          "answerC": "Mario Kempes",
+          "answerD": "Hulk",
+          "trueAnswer": "Mario Kempes",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question13.jpg?alt=media&token=55ba73d6-92e0-418e-863f-91fafc0bdaa5"
+        },
+        "14": {
+          "answerA": "Pogba",
+          "answerB": "Messi",
+          "answerC": "Ronaldo",
+          "answerD": "Djalma Santos",
+          "trueAnswer": "Djalma Santos",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question14.jpg?alt=media&token=b713918d-5aab-4ecc-8316-6986d309ca3a"
+        },
+        "15": {
+          "answerA": "Messi",
+          "answerB": "Hulk",
+          "answerC": "Pogba",
+          "answerD": "Zlatan Ibrahimovic",
+          "trueAnswer": "Zlatan Ibrahimovic",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question15.jpg?alt=media&token=e1d81ab7-f50a-4b98-a101-5ad34d3a6b24"
+        },
+        "16": {
+          "answerA": "Rock",
+          "answerB": "Philipp Lahm",
+          "answerC": "Ronaldo",
+          "answerD": "Mapple",
+          "trueAnswer": "Philipp Lahm",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question16.jpg?alt=media&token=0988f650-9b2a-4ab7-875f-ca36a1dad0e9"
+        },
+        "17": {
+          "answerA": "Sandor Kocsis",
+          "answerB": "Raheem Sterling",
+          "answerC": "Bùi Tiến Dũng",
+          "answerD": "Bale",
+          "trueAnswer": "Sandor Kocsis",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question17.jpg?alt=media&token=bfd7f2b7-0538-4cae-bb48-eb83bcdd8c26"
+        },
+        "18": {
+          "answerA": "Rock",
+          "answerB": "Swatt",
+          "answerC": "Roberto Carlos",
+          "answerD": "Bale",
+          "trueAnswer": "Roberto Carlos",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question18.jpg?alt=media&token=0fb77d78-fb0e-4bee-aa30-fc311fde0e70"
+        },
+        "19": {
+          "answerA": "Rock",
+          "answerB": "Hugo Sanchez",
+          "answerC": "Ronaldo",
+          "answerD": "Messi",
+          "trueAnswer": "Hugo Sanchez",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question19.jpg?alt=media&token=0383b925-c9ad-4183-a038-e2555fd94fa6"
+        },
+        "20": {
+          "answerA": "Rock",
+          "answerB": "Denis Law",
+          "answerC": "Ronaldo",
+          "answerD": "Bale",
+          "trueAnswer": "Denis Law",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question20.jpg?alt=media&token=01b61ff8-1eea-4b0f-b712-548c0f0a66d1"
+        },
+        "21": {
+          "answerA": "Nguyễn Quang Hải",
+          "answerB": "Raheem Sterling",
+          "answerC": "Ronaldo",
+          "answerD": "Xavi",
+          "trueAnswer": "Xavi",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question5.jpg?alt=media&token=9d786ba8-61e5-4be3-bb51-5c56b7ac9980"
+        },
+        "22": {
+          "answerA": "Rock",
+          "answerB": "Michael Laudrup",
+          "answerC": "Ronaldo",
+          "answerD": "Bale",
+          "trueAnswer": "Michael Laudrup",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question22.jpg?alt=media&token=b27fe730-3ca8-41f3-8c0a-616244f427b5"
+        },
+        "23": {
+          "answerA": "Rock",
+          "answerB": "Raheem Sterling",
+          "answerC": "Roberto Rivellino",
+          "answerD": "Bale",
+          "trueAnswer": "Roberto Rivellino",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question23.jpg?alt=media&token=5421fc0a-ff6e-4a2a-a032-88bb9b2f00d8"
+        },
+        "24": {
+          "answerA": "Rock",
+          "answerB": "Raheem Sterling",
+          "answerC": "Juan Alberto Schiaffino",
+          "answerD": "Bale",
+          "trueAnswer": "Raheem Sterling",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/question24.jpg?alt=media&token=6601628d-26b0-444d-9ed4-0d9a092348fc"
+        }
+
+      },
+      "question_normal": {
+        "1": {
+          "answerA": "Lewandowski",
+          "answerB": "Raheem Sterling",
+          "answerC": "Jadon Sancho",
+          "answerD": "Ronaldo",
+          "trueAnswer": "Jadon Sancho",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion1.jpg?alt=media&token=037d078c-11f7-442e-9a2c-8bcce7fb4765"
+        },
+        "2": {
+          "answerA": "Messi",
+          "answerB": "Mbappe",
+          "answerC": "Sadio Mane",
+          "answerD": "Pogba",
+          "trueAnswer": "Sadio Mane",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion2.jpg?alt=media&token=10cfe29d-a4fb-4434-912e-e9031d069414"
 
         },
-        "question_normal":{
-          "1": {
-            "answerA": "Lewandowski",
-            "answerB": "Raheem Sterling",
-            "answerC": "Jadon Sancho",
-            "answerD": "Ronaldo",
-            "trueAnswer": "Jadon Sancho",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion1.jpg?alt=media&token=037d078c-11f7-442e-9a2c-8bcce7fb4765"
-          },
-          "2": {
-            "answerA": "Messi",
-            "answerB": "Mbappe",
-            "answerC": "Sadio Mane",
-            "answerD": "Pogba",
-            "trueAnswer": "Sadio Mane",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion2.jpg?alt=media&token=10cfe29d-a4fb-4434-912e-e9031d069414"
-
-          },
-          "3": {
-            "answerA": "Harry Kane",
-            "answerB": "Gabriel Jesus",
-            "answerC": "Armor",
-            "answerD": "Messi",
-            "trueAnswer": "Harry Kane",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion3.jpg?alt=media&token=f7d1e545-cf7d-4a7d-8242-184a74fa5573"
-          },
-          "4": {
-            "answerA": "Neymar",
-            "answerB": "Romelu Lukaku",
-            "answerC": "Roanldo",
-            "answerD": "Hulk",
-            "trueAnswer": "Romelu Lukaku",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion4.jpg?alt=media&token=bbe3c3d4-81f5-4cbf-9429-0463034e0aed"
-          },
-          "5": {
-            "answerA": "Coutinho",
-            "answerB": "Messi",
-            "answerC": "Sadio Mané",
-            "answerD": "The Gear",
-            "trueAnswer": "Coutinho",
-            "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion5.jpg?alt=media&token=2b840fb4-455e-4689-9b44-f0d277d7f88b"
-          }
-
+        "3": {
+          "answerA": "Harry Kane",
+          "answerB": "Gabriel Jesus",
+          "answerC": "Armor",
+          "answerD": "Messi",
+          "trueAnswer": "Harry Kane",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion3.jpg?alt=media&token=f7d1e545-cf7d-4a7d-8242-184a74fa5573"
         },
+        "4": {
+          "answerA": "Neymar",
+          "answerB": "Romelu Lukaku",
+          "answerC": "Roanldo",
+          "answerD": "Hulk",
+          "trueAnswer": "Romelu Lukaku",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion4.jpg?alt=media&token=bbe3c3d4-81f5-4cbf-9429-0463034e0aed"
+        },
+        "5": {
+          "answerA": "Coutinho",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "The Gear",
+          "trueAnswer": "Coutinho",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion5.jpg?alt=media&token=2b840fb4-455e-4689-9b44-f0d277d7f88b"
+        },
+        "6": {
+          "answerA": "Coutinho",
+          "answerB": "Messi",
+          "answerC": "Diego Maradona",
+          "answerD": "The Gear",
+          "trueAnswer": "Diego Maradona",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion6.jpg?alt=media&token=c19eb804-12aa-47e7-a987-61a7c05965c2"
+        },
+        "7": {
+          "answerA": "Coutinho",
+          "answerB": "Pele",
+          "answerC": "Sadio Mané",
+          "answerD": "Bùi Tiến Dũng",
+          "trueAnswer": "Pele",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion7.jpg?alt=media&token=91f6ffe3-f609-4a8c-bee0-1934f5e602f2"
+        },
+        "8": {
+          "answerA": "Johan Cruyff",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "The Gear",
+          "trueAnswer": "Johan Cruyff",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion8.jpg?alt=media&token=df858583-5d20-4b20-b269-c98ab1e91037"
+        },
+        "9": {
+          "answerA": "Coutinho",
+          "answerB": "Messi",
+          "answerC": "Zinedine Zidane",
+          "answerD": "Neymar",
+          "trueAnswer": "Zinedine Zidane",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion9.jpg?alt=media&token=51a2461c-9516-433c-8886-e0cd5474d00e"
+        },
+        "10": {
+          "answerA": "Coutinho",
+          "answerB": "Luis Suarez",
+          "answerC": "Sadio Mané",
+          "answerD": "The Gear",
+          "trueAnswer": "Luis Suarez",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion10.jpg?alt=media&token=f93d7d89-7c6e-4f5f-b69e-fdfc1c6350bc"
+        },
+        "11": {
+          "answerA": "Coutinho",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "Didier Drogba",
+          "trueAnswer": "Didier Drogba",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion11.jpg?alt=media&token=e0ec82c7-f452-44ad-b9ee-9d294caf2036"
+        },
+        "12": {
+          "answerA": "Michael Ballack",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "Didier Drogba",
+          "trueAnswer": "Michael Ballack",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion12.jpg?alt=media&token=4c7aa485-ec47-4f14-a950-9c1eb868dce4"
+        },
+        "13": {
+          "answerA": "Michael Ballack",
+          "answerB": "Messi",
+          "answerC": "Alessandro Nesta",
+          "answerD": "The Gear",
+          "trueAnswer": "Alessandro Nesta",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion13.jpg?alt=media&token=11d9132d-6eb2-4a63-a825-12140ab7dc9a"
+        },
+        "14": {
+          "answerA": "Coutinho",
+          "answerB": "Rivaldo",
+          "answerC": "Sadio Mané",
+          "answerD": "The Gear",
+          "trueAnswer": "Rivaldo",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion14.jpg?alt=media&token=a32b1309-3ae0-4d4e-81ba-faf37b782e54"
+        },
+        "15": {
+          "answerA": "Coutinho",
+          "answerB": "Rivaldo",
+          "answerC": "Roy Keane",
+          "answerD": "John Terry",
+          "trueAnswer": "Roy Keane",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion15.jpg?alt=media&token=e43ea50f-8d62-4316-893e-b66281f7b32e"
+        },
+        "16": {
+          "answerA": "Coutinho",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "John Terry",
+          "trueAnswer": "John Terry",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion16.jpg?alt=media&token=ce72b5bb-7ca1-400e-9fd8-3929518c5d07"
+        },
+        "17": {
+          "answerA": "Coutinho",
+          "answerB": "Paul Scholes",
+          "answerC": "Sadio Mané",
+          "answerD": "The Gear",
+          "trueAnswer": "Paul Scholes",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion17.jpg?alt=media&token=747d0012-c784-4603-a338-9d981707cef1"
+        },
+        "18": {
+          "answerA": "David Villa",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "The Gear",
+          "trueAnswer": "David Villa",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion18.jpg?alt=media&token=f816b6e1-ffba-4f8a-9196-885fa136acc8"
+        },
+        "19": {
+          "answerA": "Coutinho",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "Iker Casillas",
+          "trueAnswer": "Iker Casillas",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion19.jpg?alt=media&token=47274400-883b-4e91-b911-002191d7d9f7"
+        },
+        "20": {
+          "answerA": "Neymar",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "Francesco Totti",
+          "trueAnswer": "Francesco Totti",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion20.jpg?alt=media&token=d28a1118-4dc7-4d13-b7a9-784ae02db603"
+        },
+        "21": {
+          "answerA": "Coutinho",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "ArjenRobben",
+          "trueAnswer": "ArjenRobben",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion21.jpg?alt=media&token=6264a89f-8e70-4f76-82d9-7c568e8495df"
+        },
+        "22": {
+          "answerA": "Coutinho",
+          "answerB": "Wayne Rooney",
+          "answerC": "Sadio Mané",
+          "answerD": "The Gear",
+          "trueAnswer": "Wayne Rooney",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion22.jpg?alt=media&token=ffa37181-470a-41b9-8fcf-140e42b9b6cf"
+        },
+        "23": {
+          "answerA": "Frank Lampard",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "The Gear",
+          "trueAnswer": "Frank Lampard",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion23.jpg?alt=media&token=720f0d74-9eb9-4aae-846a-b8bee8e76239"
+        },
+        "24": {
+          "answerA": "Coutinho",
+          "answerB": "Messi",
+          "answerC": "Kaka",
+          "answerD": "The Gear",
+          "trueAnswer": "Kaka",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion24.jpg?alt=media&token=4d308543-9c45-4706-93d4-edc6d74bee57"
+        },
+        "25": {
+          "answerA": "Ronaldinho",
+          "answerB": "Messi",
+          "answerC": "Sadio Mané",
+          "answerD": "The Gear",
+          "trueAnswer": "Ronaldinho",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/normalData%2Fnorquestion25.jpg?alt=media&token=da875ee1-4d71-4437-a795-2e273c0c46c9"
+        }
+
+      },
       "question_hard": {
         "1": {
           "trueAnswer": "Alfredo Di Stefano",
@@ -107,10 +419,91 @@
         "5": {
           "trueAnswer": "Bobby Moore",
           "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FBobby%20Moore.png?alt=media&token=92e23e88-eefe-47d7-8eb8-0830700221c8"
+        },
+        "6": {
+          "trueAnswer": "Andres Iniesta",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FAndres%20Iniesta.png?alt=media&token=5d74c0c5-02c3-4d71-a852-5a449ceb76a3"
+        },
+        "7": {
+          "trueAnswer": "Antonie Griezmann",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FAntonie%20Griezmann.png?alt=media&token=a219ef27-fd58-46b5-9b67-9fd2fc4ebc6d"
+        },
+        "8": {
+          "trueAnswer": "Arjen Robben",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FArjen%20Robben.png?alt=media&token=c1a54bcb-3335-4691-bafe-735000d57190"
+        },
+        "9": {
+          "trueAnswer": "Carles Puyol",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FCarles%20Puyol.png?alt=media&token=48718d90-0fd6-400a-83a0-fab0bf9d85be"
+        },
+        "10": {
+          "trueAnswer": "Carlos Tevez",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FCarlos%20Tevez.png?alt=media&token=52f4724c-e0dd-4348-ae62-316bffac036d"
+        },
+        "11": {
+          "trueAnswer": "Casemiro",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FCasemiro.png?alt=media&token=1299938b-b205-4cba-940b-780bfb7be095"
+        },
+        "12": {
+          "trueAnswer": "Cristiano Ronaldo",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FCristiano%20Ronaldo.png?alt=media&token=57fa6eb3-deb2-454b-a643-d43ce6bc0d09"
+        },
+        "13": {
+          "trueAnswer": "Dani Alves",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FDani%20Alves.png?alt=media&token=b3d92f25-5fca-4e8c-8871-895a73d6855d"
+        },
+        "14": {
+          "trueAnswer": "David Beckham",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FDavid%20Beckham.png?alt=media&token=0fb27010-a0be-43cd-9250-84e0be9de160"
+        },
+        "15": {
+          "trueAnswer": "David Luiz",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FDavid%20Luiz.png?alt=media&token=9d555237-55a1-45c8-b285-df73a50eb1bb"
+        },
+        "16": {
+          "trueAnswer": "David Silva",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FDavid%20Silva.png?alt=media&token=81d3bd18-13bb-4495-b4fc-3b995b885a3d"
+        },
+        "17": {
+          "trueAnswer": "David Villa",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FDavid%20Villa.png?alt=media&token=48d3ce7a-aaa6-42bc-bf0e-7118db5b2310"
+        },
+        "18": {
+          "trueAnswer": "Didier Drogba",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FDidier%20Drogba.png?alt=media&token=09260692-1f8f-4782-9b63-4c9dae36972f"
+        },
+        "19": {
+          "trueAnswer": "Dieogo Maradona",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FDieogo%20Maradona.png?alt=media&token=ebb0f51e-b238-44a1-a850-e710cfa17f7d"
+        },
+        "20": {
+          "trueAnswer": "Doulas Costa",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FDoulas%20Costa.png?alt=media&token=9fde2929-3b94-413e-932d-5fe00cf5041a"
+        },
+        "21": {
+          "trueAnswer": "Eden Hazard",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FEden%20Hazard.png?alt=media&token=192d8e1b-fb88-4d31-ab5b-e0120745aeb3"
+        },
+        "22": {
+          "trueAnswer": "Edinson Cavani",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FEdinson%20Cavani.png?alt=media&token=9b653443-e0e0-432b-87f0-624e141ec249"
+        },
+        "23": {
+          "trueAnswer": "Eric Catona",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FEric%20Catona.png?alt=media&token=498c017d-ff37-4204-a855-82c50578830d"
+        },
+        "24": {
+          "trueAnswer": "Eusebio",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FEusebio.png?alt=media&token=bb74ee86-8e38-436e-b769-afa91ce9ae1b"
+        },
+        "25": {
+          "trueAnswer": "Fabio Canavaro",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FFabio%20Canavaro.png?alt=media&token=bffddf50-78d0-465b-9d75-51dd3f38ab9a"
+        },
+        "26": {
+          "trueAnswer": "Filipe Luis",
+          "url": "https://firebasestorage.googleapis.com/v0/b/dean-3069b.appspot.com/o/hardata%2FFilipe%20Luis.png?alt=media&token=eac0a029-676e-43a3-ac3d-b48c942fda82"
         }
-
-        
-
       }
     }    
 }
